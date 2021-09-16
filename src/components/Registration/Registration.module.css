@@ -1,0 +1,53 @@
+.wrapper{
+    display:flex;
+    height: 100vh;
+    background-color: rgb(33, 66, 126);
+}
+.Form{
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 32px;
+}
+.Form p{
+    color: white;
+}
+.field{
+    margin: 5px;
+    font-size: 24px;
+    max-width: 86vw;
+}
+.Form button{
+    margin: 5px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+.submit {
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: darkgrey;
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.submit:hover{
+    background-color:grey;
+}
+.submit:active{
+    background-color:midnightblue;
+}
+@media (max-width: 767px) {
+    .Form{
+        font-size: 24px;
+        width: 96vw;
+    }
+    .Form button{
+        font-size: 18px;
+    }
+}

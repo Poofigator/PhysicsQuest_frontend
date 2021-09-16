@@ -1,0 +1,65 @@
+.wrapper{
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+}
+.safe{
+    width: inherit;
+    height: inherit;
+}
+.gifs{
+    position: absolute;
+}
+.rick {
+    position: relative;
+    height: 30vh;
+    top: 50vh; 
+}
+.scientist{
+    position: relative;
+    height: 30vh;
+    top: 50vh; 
+}
+.firework1 {
+    position: relative;
+    width: 40vh;
+    left: 5vw;
+}
+.firework2 {
+    position: relative;
+    width: 40vh;
+    left: 35vw;
+}
+.heart {
+    position: relative;
+    width: 15vh;
+    top: 20vh;
+    left: -2vw;
+}
+@media (max-width:767px){
+    .wrapper{
+        width: 80vw;
+        height: 80vw;
+    }
+    .rick {
+        height: 20vh;
+        top: 60vh; 
+    }
+    .scientist{
+        height: 20vh;
+        top: 60vh; 
+    }
+    .firework1 {
+        width: 20vh;
+        left: 0vw;
+    }
+    .firework2 {
+        width: 25vh;
+        left: 0vw;
+    }
+    .heart {
+        top: 20vh;
+        left: 0vw;
+    } 
+}

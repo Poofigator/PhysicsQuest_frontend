@@ -53,7 +53,7 @@ const Safe = () => {
     }
 
     async function sendAnswer(){
-        const url = 'http://localhost:3001/api/sendCode';
+        const url = 'https://physics-quest-backend.herokuapp.com/api/sendCode';
         const data = { name: name,
         sername: sername,
         school: school,

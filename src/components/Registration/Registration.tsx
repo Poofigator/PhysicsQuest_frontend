@@ -24,7 +24,7 @@ const Registration = () => {
     async function postData(){
         if (!name || !sername || !school) return (null)
         else{
-        const url = 'http://localhost:3001/api/sendRegData';
+        const url = 'https://physics-quest-backend.herokuapp.com/api/sendRegData';
         const data = { name: name,
         sername: sername,
         school: school };

@@ -17,7 +17,7 @@ const Header = (props: any) => {
   const dispatch = useDispatch()
   const [number, setNumber] = useState<string|null>(null)
 
-  const url = 'http://localhost:3001/api/sendTest';
+  const url = 'https://physics-quest-backend.herokuapp.com/api/sendTest';
   const data = { name: name,
   sername: sername,
   school: school,

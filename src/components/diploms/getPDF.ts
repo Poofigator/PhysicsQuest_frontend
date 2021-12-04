@@ -4,7 +4,7 @@ import gramota from './gramota.jpg'
 import './ARIAL-normal.js'
 
 async function check(data: any){
-    const url = 'http://localhost:3001/api/check';
+    const url = 'https://physics-quest-backend.herokuapp.com/api/check';
 
     try {
     const response = await fetch(url, {
